@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a portfolio website to display some services of the company "Something Somthing". This is currently under development. We will keep on adding those features in readme that we add on the website.
+This is a portfolio website to display some services of the company "Something something". This is currently under development. We will keep on adding those features in readme that we add on the website.
 
 ## Components
 
@@ -32,4 +32,29 @@ Here is the code for the header we have:
     <a href="./pages/contact.html">Contact</a>
   </nav>
 </header>
+```
+
+### Footer
+
+Footer has social media links, and some contact and address information.
+Here is the code that we have for footer:
+
+```html
+<footer>
+  <div class="social-media">
+    <a href="https://www.facebook.com" target="_blank">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://www.github.com" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+  <div class="info">
+    <p>Contact: 0404040404</p>
+    <p>Address: 0 Street, Country</p>
+  </div>
+</footer>
 ```
